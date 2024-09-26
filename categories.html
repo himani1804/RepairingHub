@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repair Service Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Repair Service</h1>
+
+        <div id="categories" class="step">
+            <h2>Select a Category</h2>
+            <div class="category-button" data-category="phone">
+                <img src="images/phone1.jpg" alt="Phone">
+                <span>Phone</span>
+            </div>
+            <div class="category-button" data-category="laptop">
+                <img src="images/leptop1.jpg" alt="Laptop">
+                <span>Laptop</span>
+            </div>
+            <div class="category-button" data-category="computer">
+                <img src="images/computer.jpg" alt="Computer">
+                <span>Computer</span>
+            </div>
+        </div>
+
+        <div id="phone-types" class="step hidden">
+            <h2>Select Phone Type</h2>
+            <div class="type-button" data-type="apple">
+                <img src="images/appleiphone.png" alt="Apple Phone">
+                <span>Apple Phone</span>
+            </div>
+            <div class="type-button" data-type="android">
+                <img src="images/android phone.png" alt="Android Phone">
+                <span>Android Phone</span>
+            </div>
+            <div class="type-button" data-type="windows">
+                <img src="images/windowsphone.png" alt="Windows Phone">
+                <span>Windows Phone</span>
+            </div>
+            <div class="type-button" data-type="accessories">
+                <img src="images/phoneaccesories.png" alt="Phone Accessories">
+                <span>Phone Accessories</span>
+            </div>
+            <div class="type-button" data-type="landline">
+                <img src="images/landlinephone.png" alt="Landline Phone">
+                <span>Landline Phone</span>
+            </div>
+            <div class="type-button" data-type="linux">
+                <img src="images/linuxphone.png" alt="Linux Phone">
+                <span>Linux Phone</span>
+            </div>
+        </div>
+
+        <div id="android-brands" class="step hidden">
+            <h2>Select Android Brand</h2>
+            <div class="brand-button" data-brand="samsung">
+                <img src="images/samsung.png" alt="Samsung">
+                <span>Samsung</span>
+            </div>
+            <div class="brand-button" data-brand="realme">
+                <img src="images/realme.png" alt="Realme">
+                <span>Realme</span>
+            </div>
+            <div class="brand-button" data-brand="tecno">
+                <img src="images/tecno.png" alt="Tecno">
+                <span>Tecno</span>
+            </div>
+            <div class="brand-button" data-brand="oppo">
+                <img src="images/oppo.png" alt="Oppo">
+                <span>Oppo</span>
+            </div>
+            <div class="brand-button" data-brand="vivo">
+                <img src="images/vivo.png" alt="Vivo">
+                <span>Vivo</span>
+            </div>
+            <div class="brand-button" data-brand="lava">
+                <img src="images/lava.png" alt="Lava">
+                <span>Lava</span>
+            </div>
+        </div>
+
+        <div id="services" class="step hidden">
+            <h2>Select Service</h2>
+            <div class="service-button" data-service="battery">
+                <img src="images/battery.jpg" alt="Battery Replacement">
+                <span>Battery Replacement</span>
+            </div>
+            <div class="service-button" data-service="screen">
+                <img src="images/screen.jpg" alt="Screen Replacement">
+                <span>Screen Replacement</span>
+            </div>
+            <div class="service-button" data-service="water">
+                <img src="images/water.jpeg" alt="Water Damage Repair">
+                <span>Water Damage Repair</span>
+            </div>
+            <div class="service-button" data-service="water">
+                <img src="images/datarecovery.png" alt="Water Damage Repair">
+                <span>Data Recovery</span>
+            </div>
+            <div class="service-button" data-service="water">
+                <img src="images/software.jpg" alt="Water Damage Repair">
+                <span>Software Issues</span>
+            </div>
+            <div class="service-button" data-service="water">
+                <img src="images/overheating.jpg" alt="Water Damage Repair">
+                <span>Overheating</span>
+            </div>
+        </div>
+
+        <div id="repair-shops" class="step hidden">
+            <h2>Select Repair Shop</h2>
+            <select id="shop">
+                <option value="shop1">Repair Shop 1</option>
+                <option value="shop2">Repair Shop 2</option>
+                <option value="shop3">Repair Shop 3</option>
+            </select>
+        </div>
+
+        <button id="book-repair" class="hidden">Book Repair</button>
+    </div>
+
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
